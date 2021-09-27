@@ -1,8 +1,13 @@
 @charset "UTF-8";
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
 
-
+body {
+  height: 100%;
+}
 
 a {
   color: #FF4E00;
@@ -27,6 +32,7 @@ h1,h2,h3,h4,h5{
 
 h1 {
 	font-size: 1.802em;
+  font-weight: 600;
 }
 
 h2 {
@@ -54,15 +60,26 @@ p {
 }
 
 .btn-primary{
-  background-color: red !important;
-  color: #202529;
-  border-color: #FF4E00;
+  background-color:rgb(250, 131, 94) !important;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 0;
+  font-weight: 700;;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #1C9FC7;
-  border-color: #1C9FC7;
+  background-color:rgb(194, 96, 66) !important;
+  border: none !important; 
+  padding: 15px 30px;
+  width: inherit !important;
+}
+
+.btn-secondary {
+  border-radius: 0;
+  background: black;
+  padding: 15px 30px;
+  font-weight: 700;
 }
 
 .modelNote{
@@ -86,3 +103,45 @@ p {
   height: 500px !important;
 }
 
+.carousel-inner{
+  max-height: 500px;
+}
+
+#spideyCarousel {
+  padding: 0 50px 50px 50px;
+}
+
+.nav-item {
+  margin: 0 40px;
+  font-weight: 400;
+}
+
+.navbar {
+  border-bottom: 1px gray solid;
+  margin-bottom: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(250, 131, 94) ;
+  font-weight: 600;
+}
+
+footer {
+  background: rgb(236, 236, 236);
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+}
+
+.modal-dialog {
+  max-width: 1280px !important;
+}
+
+
+#spidey4 {
+  margin: auto !important;
+  display: block !important;
+}
