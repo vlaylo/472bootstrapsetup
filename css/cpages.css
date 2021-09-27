@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+a {
+  color: #FF4E00;
+  text-decoration: none;
+  line-height: inherit;
+  }   
+  
+  a:hover, a:focus {
+    color: #1C9FC7; 
+} 
+
+.btn-link{
+  color: #FF4E00;
+}
+
+
+/*Type Hierarchy based on a Major Second*/  
+
+h1,h2,h3,h4,h5{
+	font-family:Avenir Next, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 1.802em;
+}
+
+h2 {
+	font-size: 1.602em;
+}
+
+h3 {
+	font-size: 1.424em;
+	text-indent: -30px;
+}
+
+h4 {
+  font-size: 1.266em;
+
+}
+h5 {
+  font-size: 1.125em;
+
+}
+p {
+	font-family:Avenir Next, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+  line-height: 1.325em;
+}
+
+.btn-primary{
+  background-color: transparent;
+  color: #202529;
+  border-color: #FF4E00;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1C9FC7;
+  border-color: #1C9FC7;
+}
+
+.modelNote{
+  font-size: 0.79em;
+  text-align: left;
+}
+
+.container {
+  width: 100%;
+}
