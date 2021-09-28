@@ -124,7 +124,7 @@ p {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgb(250, 131, 94) ;
+  color: rgb(250, 131, 94) !important;
   font-weight: 600;
 }
 
