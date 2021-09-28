@@ -114,6 +114,8 @@ p {
 .nav-item {
   margin: 0 40px;
   font-weight: 400;
+  color:red;
+  font-weight: bold;
 }
 
 .navbar {
@@ -133,7 +135,7 @@ footer {
   padding: 20px;
   position: sticky;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .modal-dialog {
